@@ -1,0 +1,33 @@
+/**
+ * TO DO
+ **********************************************/
+.done4{text-decoration:line-through;}
+/**
+ * Content Index
+ ********************************************/
+div.toc{border:1px solid #ccc; background:#f8f8f8; float:right; padding:3px; position:fixed; top:4em; right:1em; z-index:1;
+    -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;
+    -moz-opacity:.2; opacity:.2; -ms-filter:"opacity=20"; filter:alpha(opacity=20);
+}
+div.toc:hover{
+    -moz-box-shadow:0 0 8px #666; -webkit-box-shadow:0 0 8px #666; box-shadow:0 0 8px #666;
+    -moz-opacity:1; opacity:1; -ms-filter:"enabled=false"; filter:alpha(enabled=false);
+}
+    div.toc ul{margin:0; padding:0 0 0 1em; *padding:0;}
+    div.toc>ul{padding:0;}
+    div.toc ul ul{*padding:0 0 0 8px;}
+    div.toc li{list-style-type: none; margin:0; padding:0 0 0 18px; background:transparent url(/assets/vimwiki_include/css/bg/icons.png) no-repeat scroll 0 -48px; font-size:.9em; line-height:18px; overflow:hidden;}
+
+
+.entry-content ul {
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 15px; 
+	}
+.entry-content ol {   
+	list-style: decimal;
+	padding-left: 15px; 
+        }
+
+
+

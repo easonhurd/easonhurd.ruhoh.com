@@ -1,0 +1,138 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>%title%</title>
+	<meta name="author" content="YiSh">
+	<link href='/assets/themes/the-yish/css/style.css' rel="stylesheet" media="all">
+	<!-- this is for the toc table and todo css-->
+        <link rel="stylesheet" href="/assets/vimwiki_include/css/cse.css" type="text/css" media="all" />
+	<script src="/assets/themes/the-yish/js/modernizr.min.js"></script>
+	<!-- syntax hightlight-->
+	<link type="text/css" rel="stylesheet" href="/assets/vimwiki_include/syntaxhighlighter/styles/shCore.css" />
+	<link type="text/css" rel="stylesheet" href="/assets/vimwiki_include/syntaxhighlighter/styles/shThemeRDark.css" />
+	<script type="text/javascript" src="/assets/vimwiki_include/syntaxhighlighter/scripts/shCore.js"></script>
+	<script type="text/javascript" src="/assets/vimwiki_include/syntaxhighlighter/scripts/shBrushPython.js"></script>
+	<script type="text/javascript" src="/assets/vimwiki_include/syntaxhighlighter/scripts/shBrushBash.js"></script>
+	<script type="text/javascript" src="/assets/vimwiki_include/syntaxhighlighter/scripts/shBrushCpp.js"></script>
+	<script type="text/javascript" src="/assets/vimwiki_include/syntaxhighlighter/scripts/shBrushPowerShell.js"></script>
+	<script type="text/javascript" src="/assets/vimwiki_include/syntaxhighlighter/scripts/shBrushXml.js"></script>
+	<script type="text/javascript" src="/assets/vimwiki_include/syntaxhighlighter/scripts/shBrushJava.js"></script>
+	<script type="text/javascript">
+	  SyntaxHighlighter.all();
+	</script>
+	<!-- mathjax -->
+	<script type="text/javascript" src="/assets/vimwiki_include/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+
+<div id="page" class="hentry">
+	<header class="the-header">
+		<div class="unit-head">
+			<div class="unit-inner unit-head-inner">
+				<p class="logo"><a href="/assets/wiki_html/index.html ">YiSH Wiki |  A Vimwiki Site</a></p>
+				<nav class="nav-global">
+					<ul>
+						<li class="blog"><a href="/">Blog</a></li>
+						<li class="archive"><a href="/archive.html">archive</a></li>
+						<li class="page"><a href="/pages.html">pages</a></li>
+						<li class="category"><a href="/categories.html">categories</a></li>
+						<li class="tag"><a href="/tags.html">tags</a></li>
+						<li class="wiki"><a href="/assets/wiki_html/index.html">wiki</a></li>
+						<li class="download"><a href="/pages/sharing/">Resource</a></li>
+				</ul>
+				</nav>
+			</div><!-- unit-inner -->
+		</div><!-- unit-head -->
+	</header>
+	<div class="body" role="main">
+		<div class="unit-body">
+			<div class="unit-inner unit-body-inner">
+				<div class="entry-content">
+					
+
+<article class="unit-article layout-post">
+	<div class="unit-inner unit-article-inner">
+		<div class="content">
+			<header>
+				<div class="unit-head">
+					<div class="unit-inner unit-head-inner">
+						<h1 class="h2 entry-title">%title%</h1>
+					</div><!-- unit-inner -->
+				</div><!-- unit-head -->
+			</header>
+
+			<div class="bd">
+				<div class="entry-content" id="vimwiki">
+					%content%
+					<div class="meta">
+						
+					</div><!-- meta -->
+				</div><!-- entry-content -->
+				
+			</div><!-- bd -->
+			<footer class="unit-foot">
+				<div class="unit-inner unit-foot-inner">
+					<p class="gotop">
+						<a href="#page">Back to Top</a>
+					</p>
+				</div>
+			</footer>
+
+		</div><!-- content -->
+	</div><!-- unit-inner -->
+</article>
+
+
+				</div>
+			</div><!-- unit-inner -->
+		</div><!-- unit-body -->
+	</div><!-- body -->
+	<footer class="the-footer">
+		<div class="unit-foot">
+			<div class="unit-inner unit-foot-inner">
+				<div class="misc vcard">
+					<h4>about</h4>
+					<ul>
+						<li class="twitter"><a href="http://twitter.com/yishanhe/" rel="me">twitter.com/yishanhe</a></li>
+						<li class="rss"><a href="http://feeds.feedburner.com/yishanhe">Subscribe to RSS Feed</a></li>
+					</ul>
+				</div><!-- misc -->
+				<p class="licence">
+					Theme Modified: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
+					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and Vimwiki.
+				</p>
+			</div><!-- unit-foot-inner -->
+		</div><!-- unit-foot -->
+	</footer>
+</div><!-- page -->
+<script>
+/*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/
+(function(j){var i=j.document;if(!i.querySelectorAll){return}var l=i.querySelectorAll("meta[name=viewport]")[0],a=l&&l.getAttribute("content"),h=a+", maximum-scale=1.0",d=a+", maximum-scale=10.0",g=true,c=j.orientation,k=0;if(!l){return}function f(){l.setAttribute("content",d);g=true}function b(){l.setAttribute("content",h);g=false}function e(m){c=Math.abs(j.orientation);k=Math.abs(m.gamma);if(k>8&&c===0){if(g){b()}}else{if(!g){f()}}}j.addEventListener("orientationchange",f,false);j.addEventListener("deviceorientation",e,false)})(this);
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8700248-25']);
+  _gaq.push(['_setDomainName', '.yishanhe.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>  
+</body>
+</html>
+
+
